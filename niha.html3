@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form>
+      <label for="lunch">Lunch</label>
+      <input type="checkbox" id="lunch" name="food" value="lunch">
+      <br>
+      <label for="dinner">Dinner</label>
+      <input type="checkbox" id="dinner" name="food" value="dinner">
+    </form>
+  </body>
+</html> 
+This code creates a form with two checkboxes, one for "Lunch" and one for "Dinner". Both checkboxes have the same name, "food", and a different value, "lunch" and "dinner". 
+When the form is submitted, the value of the checked checkbox will be sent to the server.
